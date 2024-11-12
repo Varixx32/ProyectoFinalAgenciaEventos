@@ -31,11 +31,11 @@ Debemos crear la base de datos en MySQL con los scripts proporcionados en la car
 Una vez creado podemos usar la documentacion y entorno de interfaz de Swagger para probar los distintos endpoints que la app tiene abiertos. 
 
 Para ello debemos ir a las siguientes URL en cualquier navegador:
-(Eventos)
+- (Eventos)
 localhost:8081/swagger-ui/
-(Artistas)
+- (Artistas)
 localhost:8082/swagger-ui/
-(Reservas)
+- (Reservas)
 localhost:8083/swagger-ui/
 
 La manera recomendable de probar la aplicacion es la siguiente: 
