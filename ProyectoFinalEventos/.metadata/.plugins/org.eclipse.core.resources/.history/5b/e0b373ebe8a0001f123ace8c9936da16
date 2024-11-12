@@ -39,6 +39,7 @@ public class Artista {
      * Indica si el artista está disponible para reservas o eventos.
      */
     @Column(name = "disponible", nullable = false)
+    @Schema(description = "Disponibilidad del artista para reservas o eventos", example = "true", required = true)
     private Boolean disponible;
 
     // Getters y Setters
